@@ -1,16 +1,3 @@
-# This is a sample Python script.
-
-# Press Shift+F10 to execute it or replace it with your code.
-# Press Double Shift to search everywhere for classes, files, tool windows, actions, and settings.
-
-
-def print_hi(name):
-    # Use a breakpoint in the code line below to debug your script.
-    print(f'Hi, {name}')  # Press Ctrl+F8 to toggle the breakpoint.
-
-
-# Press the green button in the gutter to run the script.
-if __name__ == '__main__':
-    print_hi('PyCharm')
-
-# See PyCharm help at https://www.jetbrains.com/help/pycharm/
+a = [['нач 8:30', ' кон 9:15'], ['нач 9;20', 'кон 10:05'], ['нач 10:15', 'кон 11:00'], ['нач 11:10', "кон 11:55"], ['нач 12:05', "кон 12:50"], ['нач 13:00', 'кон 13:45']]
+i = int(input('введите число'))
+print(a[i])
