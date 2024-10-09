@@ -4,7 +4,7 @@ c = int(input('число'))
 d = int(input('число'))
 if (b >8 or b <1 or d >8 or d<1):
     print('неверно')
-elif (abs(a - c) == 2 and abs(b - d)==1)or (abs(a - c)==1 and abs(b - d)==2):
+elif (b-d-a+c == 0 or b - d +a -c) and b != d:
     print('да')
 else:
     print('нет')
